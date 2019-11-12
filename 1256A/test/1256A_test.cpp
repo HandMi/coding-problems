@@ -18,7 +18,10 @@ INSTANTIATE_TEST_CASE_P(
     ::testing::Values(std::make_tuple(std::array<int, 4>{1, 2, 3, 4}, true),
                       std::make_tuple(std::array<int, 4>{1, 2, 3, 6}, false),
                       std::make_tuple(std::array<int, 4>{5, 2, 6, 27}, false),
-                      std::make_tuple(std::array<int, 4>{3, 3, 5, 18}, true)));
+                      std::make_tuple(std::array<int, 4>{3, 3, 5, 18}, true),
+                      std::make_tuple(std::array<int, 4>{10, 3, 3, 10}, true),
+                      std::make_tuple(std::array<int, 4>{7, 5, 5, 1}, true),
+                      std::make_tuple(std::array<int, 4>{4, 9, 1, 9}, true)));
 
 int main(int argc, char** argv) {
   ::testing::InitGoogleTest(&argc, argv);
