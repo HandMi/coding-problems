@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 bool CheckRemainder(int a, int b, int dividend, int sum) {
   if ((sum % dividend <= b) &&
       (static_cast<long long int>(dividend) * a + b >= sum)) {
