@@ -1,5 +1,5 @@
-#include "check_remainder.h"
 #include "gtest/gtest.h"
+#include "main.h"
 
 class CF1256A_CheckRemainderTest
     : public testing::TestWithParam<std::tuple<std::array<int, 4>, bool>> {};

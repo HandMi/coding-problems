@@ -1,6 +1,14 @@
-#include "check_remainder.h"
 #include <iostream>
 #include <string>
+
+bool CheckRemainder(int a, int b, int dividend, int sum) {
+  if ((sum % dividend <= b) &&
+      (static_cast<long long int>(dividend) * a + b >= sum)) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 int main() {
   const auto q = [&](int i) { return std::cin >> i, std::move(i); }({});
