@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-
 
 long long ComputeFlagstones(int n, int m, int a) {
   long long num_n = (n % a == 0) ? n / a : n / a + 1;
