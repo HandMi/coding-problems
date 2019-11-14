@@ -1,5 +1,5 @@
 cc_library(
-    name = "1256E",
+    name = "1257E",
     srcs = glob(["src/*.cpp"]),
     hdrs = glob(["include/*.h"]),
     linkopts = ["-pthread"],
@@ -8,10 +8,10 @@ cc_library(
 )
 
 cc_test(
-    name = "1256E_test",
+    name = "1257E_test",
     srcs = glob(["test/*.cpp"]),
     deps = [
-        "//1256E",
+        "//1257E",
         "@gtest//:gtest_main",
     ],
 )
