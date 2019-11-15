@@ -4,12 +4,12 @@
 
 using ParticipantList = std::vector<std::vector<std::uint32_t>>;
 
-class CF1256E_LongestIncreasingSubsequenceTest
+class CF1257E_LongestIncreasingSubsequenceTest
     : public testing::TestWithParam<
           std::tuple<std::vector<std::uint32_t>, std::uint32_t>> {};
 
-TEST_P(CF1256E_LongestIncreasingSubsequenceTest,
-       CF1256E_LongestIncreasingSubsequence) {
+TEST_P(CF1257E_LongestIncreasingSubsequenceTest,
+       CF1257E_LongestIncreasingSubsequence) {
   auto parameters = std::get<0>(GetParam());
   auto expected = std::get<1>(GetParam());
   auto result = LongestIncreasingSubsequence(parameters);
@@ -17,19 +17,19 @@ TEST_P(CF1256E_LongestIncreasingSubsequenceTest,
 }
 
 INSTANTIATE_TEST_CASE_P(
-    CF1256E_LongestIncreasingSubsequenceTests,
-    CF1256E_LongestIncreasingSubsequenceTest,
+    CF1257E_LongestIncreasingSubsequenceTests,
+    CF1257E_LongestIncreasingSubsequenceTest,
     ::testing::Values(
         std::make_tuple(std::vector<std::uint32_t>{5, 4, 1, 3, 2}, 2),
         std::make_tuple(std::vector<std::uint32_t>{1, 2, 3, 5, 4}, 4),
         std::make_tuple(std::vector<std::uint32_t>{1, 2, 3, 4, 5}, 5),
         std::make_tuple(std::vector<std::uint32_t>{5, 4, 3, 2, 1}, 1)));
 
-class CF1256E_MinimumMovesTest
+class CF1257E_MinimumMovesTest
     : public testing::TestWithParam<
           std::tuple<ParticipantList, std::uint32_t>> {};
 
-TEST_P(CF1256E_MinimumMovesTest, CF1256E_MinimumMoves) {
+TEST_P(CF1257E_MinimumMovesTest, CF1257E_MinimumMoves) {
   auto parameters = std::get<0>(GetParam());
   auto expected = std::get<1>(GetParam());
   auto result = MinimumMoves(parameters);
@@ -37,7 +37,7 @@ TEST_P(CF1256E_MinimumMovesTest, CF1256E_MinimumMoves) {
 }
 
 INSTANTIATE_TEST_CASE_P(
-    CF1256E_MinimumMovesTests, CF1256E_MinimumMovesTest,
+    CF1257E_MinimumMovesTests, CF1257E_MinimumMovesTest,
     ::testing::Values(
         std::make_tuple(ParticipantList{std::vector<std::uint32_t>{3, 1},
                                         std::vector<std::uint32_t>{4},
