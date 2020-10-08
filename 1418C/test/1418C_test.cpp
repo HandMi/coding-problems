@@ -5,7 +5,7 @@
 class CF1418C_CountSkipsTest
     : public testing::TestWithParam<std::pair<std::vector<int>, int>> {};
 
-TEST_P(CF1418C_CountSkipsTest, ReconstructStats) {
+TEST_P(CF1418C_CountSkipsTest, CalculateSkips) {
   auto bosses = GetParam().first;
   auto expected = GetParam().second;
   auto result = CalculateSkips(bosses);
