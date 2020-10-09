@@ -14,6 +14,7 @@ Solved problems:
 * [1257D Yet Another Monster Killing Problem ](https://codeforces.com/problemset/problem/1257/D) *1700*
 * [1257E The Contest](https://codeforces.com/problemset/problem/1257/E) *2000*
 * [1398C Good Subarrays](https://codeforces.com/problemset/problem/1398/C) *1600*
+* [1398D Colored Rectangles](https://codeforces.com/problemset/problem/1398/D) *1800*
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
 
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
