@@ -5,6 +5,7 @@ Solved problems:
 
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
 * [2B The Least Round Way](https://codeforces.com/problemset/problem/2/B) *2000*
+* [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
 * [1157D N Problems During K Days](https://codeforces.com/problemset/problem/1157/D) *2100*
 * [1244C The Football Season](https://codeforces.com/problemset/problem/1244/C) *1900*
 * [1256A Payment Without Change](https://codeforces.com/problemset/problem/1256/A) *1000*
