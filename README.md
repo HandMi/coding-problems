@@ -6,6 +6,7 @@ Solved problems:
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
 * [2B The Least Round Way](https://codeforces.com/problemset/problem/2/B) *2000*
 * [8B Obsession with Robots](https://codeforces.com/problemset/problem/8/B) *1400*
+* [131D Subway](https://codeforces.com/contest/131/problem/D) *1600*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
 * [1157D N Problems During K Days](https://codeforces.com/problemset/problem/1157/D) *2100*
