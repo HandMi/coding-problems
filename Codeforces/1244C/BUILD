@@ -11,14 +11,14 @@ cc_test(
     name = "1244C_test",
     srcs = glob(["test/*.cpp"]),
     deps = [
-        "//1244C",
+        "//Codeforces/1244C",
         "@gtest//:gtest_main",
     ],
 )
 
 cc_binary(
-    name = "1244C_exe",
+    name = "1244C_bin",
     deps = [
-        "//1244C",
+        "//Codeforces/1244C",
     ],
 )

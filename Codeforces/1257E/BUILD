@@ -11,7 +11,7 @@ cc_test(
     name = "1257E_test",
     srcs = glob(["test/*.cpp"]),
     deps = [
-        "//1257E",
+        "//Codeforces/1257E",
         "@gtest//:gtest_main",
     ],
 )
