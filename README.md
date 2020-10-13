@@ -3,6 +3,8 @@
 
 Solved problems:
 
+## Codeforces
+
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
 * [2B The Least Round Way](https://codeforces.com/problemset/problem/2/B) *2000*
 * [8B Obsession with Robots](https://codeforces.com/problemset/problem/8/B) *1400*
@@ -20,5 +22,9 @@ Solved problems:
 * [1398C Good Subarrays](https://codeforces.com/problemset/problem/1398/C) *1600*
 * [1398D Colored Rectangles](https://codeforces.com/problemset/problem/1398/D) *1800*
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
+
+## HackerRank ProjectEuler+
+
+* [Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem)
 
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
