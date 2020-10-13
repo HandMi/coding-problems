@@ -25,6 +25,6 @@ Solved problems:
 
 ## HackerRank ProjectEuler+
 
-* [Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem)
+* [#1 Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem)
 
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
