@@ -1,7 +1,6 @@
 #include <iostream>
 #include <map>
 #include <string>
-#include <unistd.h>
 
 int CountFillableGaps(std::map<int, int> gaps, int k) {
   int filled_gaps = 0;

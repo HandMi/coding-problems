@@ -22,6 +22,7 @@ Solved problems:
 * [1398C Good Subarrays](https://codeforces.com/problemset/problem/1398/C) *1600*
 * [1398D Colored Rectangles](https://codeforces.com/problemset/problem/1398/D) *1800*
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
+* [1424G Years](https://codeforces.com/problemset/problem/1424/G) *1300*
 * [1427B Chess Cheater](https://codeforces.com/contest/1427/problem/B) *1400*
 
 ## HackerRank ProjectEuler+
