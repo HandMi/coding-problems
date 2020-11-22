@@ -8,6 +8,7 @@ Solved problems:
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
 * [2B The Least Round Way](https://codeforces.com/problemset/problem/2/B) *2000*
 * [8B Obsession with Robots](https://codeforces.com/problemset/problem/8/B) *1400*
+* [20C Dijkstra?](https://codeforces.com/contest/20/problem/C) *1900*
 * [131D Subway](https://codeforces.com/contest/131/problem/D) *1600*
 * [132C Logo Turtle](https://codeforces.com/contest/132/problem/C) *1800*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*

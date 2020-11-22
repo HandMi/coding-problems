@@ -3,8 +3,8 @@
 #include <vector>
 
 int GetMaxDistance(const std::string commands, int n) {
-  std::vector<int> forwards(n + 1, 0);
-  std::vector<int> backwards(n + 1, 0);
+  std::vector<int> forwards(n + 1, -10000);
+  std::vector<int> backwards(n + 1, -10000);
   forwards[0] = 0;
   // moving backwards initially is the same as considering the minimum
   backwards[0] = 0;
