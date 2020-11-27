@@ -14,6 +14,7 @@ Solved problems:
 * [229 Planets](https://codeforces.com/problemset/problem/229/B) *1700*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
+* [793B Igor and his way to work](https://codeforces.com/contest/793/problem/B) *1600*
 * [1157D N Problems During K Days](https://codeforces.com/problemset/problem/1157/D) *2100*
 * [1244C The Football Season](https://codeforces.com/problemset/problem/1244/C) *1900*
 * [1256A Payment Without Change](https://codeforces.com/problemset/problem/1256/A) *1000*
