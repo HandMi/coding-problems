@@ -3,6 +3,10 @@
 
 Solved problems:
 
+## Advent of Code
+
+* [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
+
 ## Codeforces
 
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
