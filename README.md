@@ -5,8 +5,9 @@ Solved problems:
 
 ## Advent of Code
 
+* [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
 * [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
-* [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/13)
+* [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
 
 ## Codeforces
 
