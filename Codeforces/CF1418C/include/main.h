@@ -3,6 +3,6 @@
 
 #include <vector>
 
-int CalculateSkips(const std::vector<int>& bosses);
+int CalculateSkips(const std::vector<int> &bosses);
 
 #endif

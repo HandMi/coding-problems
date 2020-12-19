@@ -1,15 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 class CF2B_CountFactorTest
-    : public testing::TestWithParam<std::pair<int, std::pair<int, int>>> {};
+    : public testing::TestWithParam<std::pair<int, std::pair<int, int>>>
+{
+};
 
-TEST_P(CF2B_CountFactorTest, CountCorrectFactors) {
-  const auto parameter = GetParam().first;
-  const auto expected = GetParam().second;
-  auto result = CountFactors(parameter);
-  EXPECT_EQ(result, expected);
+TEST_P(CF2B_CountFactorTest, CountCorrectFactors)
+{
+    const auto parameter = GetParam().first;
+    const auto expected = GetParam().second;
+    auto result = CountFactors(parameter);
+    EXPECT_EQ(result, expected);
 }
 
 INSTANTIATE_TEST_CASE_P(
@@ -18,15 +21,18 @@ INSTANTIATE_TEST_CASE_P(
                       std::make_pair(2, std::make_pair(1, 0))));
 
 class CF2B_FindShortestWeightedPathTest
-    : public testing::TestWithParam<std::pair<GridType, int>> {};
+    : public testing::TestWithParam<std::pair<GridType, int>>
+{
+};
 
-TEST_P(CF2B_FindShortestWeightedPathTest, FindShortestPath) {
-  auto parameters = GetParam().first;
-  auto expected = GetParam().second;
-  DirectionType grid_of_parents(parameters.size(),
-                                std::vector<char>(parameters.size(), 'R'));
-  auto result = FindShortestWeightedPath(parameters, grid_of_parents);
-  EXPECT_EQ(result, expected);
+TEST_P(CF2B_FindShortestWeightedPathTest, FindShortestPath)
+{
+    auto parameters = GetParam().first;
+    auto expected = GetParam().second;
+    DirectionType grid_of_parents(parameters.size(),
+                                  std::vector<char>(parameters.size(), 'R'));
+    auto result = FindShortestWeightedPath(parameters, grid_of_parents);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -50,13 +56,16 @@ INSTANTIATE_TEST_CASE_P(
 // clang-format on
 
 class CF2B_ReconstructPathTest
-    : public testing::TestWithParam<std::pair<DirectionType, std::string>> {};
+    : public testing::TestWithParam<std::pair<DirectionType, std::string>>
+{
+};
 
-TEST_P(CF2B_ReconstructPathTest, ReconstructPath) {
-  const auto parameters = GetParam().first;
-  const auto expected = GetParam().second;
-  auto result = ReconstructPath(parameters);
-  EXPECT_EQ(result, expected);
+TEST_P(CF2B_ReconstructPathTest, ReconstructPath)
+{
+    const auto parameters = GetParam().first;
+    const auto expected = GetParam().second;
+    auto result = ReconstructPath(parameters);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -73,13 +82,16 @@ INSTANTIATE_TEST_CASE_P(
 
 class CF2B_PathThroughZeroTest
     : public testing::TestWithParam<
-          std::pair<std::vector<std::size_t>, std::string>> {};
+          std::pair<std::vector<std::size_t>, std::string>>
+{
+};
 
-TEST_P(CF2B_PathThroughZeroTest, PathThroughZero) {
-  const auto parameters = GetParam().first;
-  const auto expected = GetParam().second;
-  auto result = PathThroughZero(parameters[0], parameters[1]);
-  EXPECT_EQ(result, expected);
+TEST_P(CF2B_PathThroughZeroTest, PathThroughZero)
+{
+    const auto parameters = GetParam().first;
+    const auto expected = GetParam().second;
+    auto result = PathThroughZero(parameters[0], parameters[1]);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -90,7 +102,8 @@ INSTANTIATE_TEST_CASE_P(
                                      "DDRRRD")));
 
 // clang-format on
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

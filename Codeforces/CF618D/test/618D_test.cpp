@@ -1,16 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
-
 
 class CF618D_CalculateDegreeTest
-    : public testing::TestWithParam<std::pair<Tree, int>> {};
+    : public testing::TestWithParam<std::pair<Tree, int>>
+{
+};
 
-TEST_P(CF618D_CalculateDegreeTest, CalculateDegree) {
-  auto tree = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = GetDegreeOfTree(tree);
-  EXPECT_EQ(result, expected);
+TEST_P(CF618D_CalculateDegreeTest, CalculateDegree)
+{
+    auto tree = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = GetDegreeOfTree(tree);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -22,13 +24,16 @@ INSTANTIATE_TEST_CASE_P(
 // clang-format on
 
 class CF618D_CountUseableEdgesTest
-    : public testing::TestWithParam<std::pair<Tree, int>> {};
+    : public testing::TestWithParam<std::pair<Tree, int>>
+{
+};
 
-TEST_P(CF618D_CountUseableEdgesTest, CountUseableEdges) {
-  auto tree = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = CountUseableEdges(tree);
-  EXPECT_EQ(result, expected);
+TEST_P(CF618D_CountUseableEdgesTest, CountUseableEdges)
+{
+    auto tree = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = CountUseableEdges(tree);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -40,7 +45,8 @@ INSTANTIATE_TEST_CASE_P(
                       std::make_pair(Tree{{1, 2},{0},{0, 3, 4}, {2}, {2}}, 3)));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

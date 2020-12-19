@@ -1,15 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 class CF1398C_CountGoodSubArraysTest
-    : public testing::TestWithParam<std::pair<std::string, long long>> {};
+    : public testing::TestWithParam<std::pair<std::string, long long>>
+{
+};
 
-TEST_P(CF1398C_CountGoodSubArraysTest, CountGoodSubArrays) {
-  auto array_string = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = CountGoodSubArrays(array_string);
-  EXPECT_EQ(result, expected);
+TEST_P(CF1398C_CountGoodSubArraysTest, CountGoodSubArrays)
+{
+    auto array_string = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = CountGoodSubArrays(array_string);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -25,7 +28,8 @@ INSTANTIATE_TEST_CASE_P(
                        50005000 )));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

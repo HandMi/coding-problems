@@ -1,19 +1,22 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 class CF1157D_ConstructStrategyTest
-    : public testing::TestWithParam<
-          std::pair<std::pair<std::uint16_t,std::uint32_t>, std::vector<std::uint32_t>>> {};
+    : public testing::TestWithParam<std::pair<
+          std::pair<std::uint16_t, std::uint32_t>, std::vector<std::uint32_t>>>
+{
+};
 
-TEST_P(CF1157D_ConstructStrategyTest, ConstructStrategy) {
+TEST_P(CF1157D_ConstructStrategyTest, ConstructStrategy)
+{
 
-  auto parameters = GetParam().first;
-  auto expected = GetParam().second;
-  std::vector<std::uint32_t> problems(parameters.first);
-  auto result = ConstructStrategy(problems, parameters.second);
-  EXPECT_EQ(result, true);
-  EXPECT_EQ(problems, expected);
+    auto parameters = GetParam().first;
+    auto expected = GetParam().second;
+    std::vector<std::uint32_t> problems(parameters.first);
+    auto result = ConstructStrategy(problems, parameters.second);
+    EXPECT_EQ(result, true);
+    EXPECT_EQ(problems, expected);
 }
 // clang-format off
 INSTANTIATE_TEST_CASE_P(CF1157D_ConstructStrategyTests, CF1157D_ConstructStrategyTest,
@@ -28,7 +31,8 @@ INSTANTIATE_TEST_CASE_P(CF1157D_ConstructStrategyTests, CF1157D_ConstructStrateg
                                           std::make_pair(std::make_pair(6,26), std::vector<std::uint32_t>{1,2,4,5,6,8})));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

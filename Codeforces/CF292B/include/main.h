@@ -6,6 +6,6 @@
 
 using Graph = std::vector<std::vector<int>>;
 
-std::string FindTopology(const Graph& graph, int nodes, int edges);
+std::string FindTopology(const Graph &graph, int nodes, int edges);
 
 #endif

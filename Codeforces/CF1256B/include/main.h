@@ -3,6 +3,6 @@
 
 #include <vector>
 
-void MinimalPermutation(std::vector<int>& permutation);
+void MinimalPermutation(std::vector<int> &permutation);
 
 #endif

@@ -5,6 +5,6 @@
 
 using Sticks = std::vector<std::vector<int>>;
 
-long CalculateTotalArea(Sticks& sticks);
+long CalculateTotalArea(Sticks &sticks);
 
 #endif

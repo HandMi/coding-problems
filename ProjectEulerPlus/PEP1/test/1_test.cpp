@@ -1,15 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 class PEP1_SumOfMultiplesOf3And5Test
-    : public testing::TestWithParam<std::pair<int, long long>> {};
+    : public testing::TestWithParam<std::pair<int, long long>>
+{
+};
 
-TEST_P(PEP1_SumOfMultiplesOf3And5Test, SumOfMultiplesOf3And5Test) {
-  auto n = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = SumOfMultiplesOf3And5(n);
-  EXPECT_EQ(result, expected);
+TEST_P(PEP1_SumOfMultiplesOf3And5Test, SumOfMultiplesOf3And5Test)
+{
+    auto n = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = SumOfMultiplesOf3And5(n);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -23,7 +26,8 @@ INSTANTIATE_TEST_CASE_P(
                       std::make_pair(1000000001,233333334166666668)));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

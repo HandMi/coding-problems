@@ -5,8 +5,8 @@
 
 using Tree = std::vector<std::vector<int>>;
 
-int GetDegreeOfTree(const Tree& tree);
+int GetDegreeOfTree(const Tree &tree);
 
-int CountUseableEdges(const Tree& tree);
+int CountUseableEdges(const Tree &tree);
 
 #endif

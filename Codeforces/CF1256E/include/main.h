@@ -5,7 +5,7 @@
 
 using StudentType = std::pair<int, std::size_t>;
 
-std::pair<long long, int> TeamComplexity(std::vector<StudentType>& students,
-                                         std::vector<int>& id_to_team);
+std::pair<long long, int> TeamComplexity(std::vector<StudentType> &students,
+                                         std::vector<int> &id_to_team);
 
 #endif

@@ -1,16 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
-
 
 class CF1398D_CalculateTotalAreaTest
-    : public testing::TestWithParam<std::pair<Sticks, long>> {};
+    : public testing::TestWithParam<std::pair<Sticks, long>>
+{
+};
 
-TEST_P(CF1398D_CalculateTotalAreaTest, CalculateTotalArea) {
-  auto sticks = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = CalculateTotalArea(sticks);
-  EXPECT_EQ(result, expected);
+TEST_P(CF1398D_CalculateTotalAreaTest, CalculateTotalArea)
+{
+    auto sticks = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = CalculateTotalArea(sticks);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -30,7 +32,8 @@ INSTANTIATE_TEST_CASE_P(
                                             {31, 37, 82, 36, 67, 86, 81, 6}}, 73851)));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

@@ -1,15 +1,18 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 class CF8B_CheckValidityOfPathTest
-    : public testing::TestWithParam<std::pair<std::string, bool>> {};
+    : public testing::TestWithParam<std::pair<std::string, bool>>
+{
+};
 
-TEST_P(CF8B_CheckValidityOfPathTest, CheckValidityOfPath) {
-  auto directions = GetParam().first;
-  auto expected = GetParam().second;
-  auto result = CheckValidityOfPath(directions);
-  EXPECT_EQ(result, expected);
+TEST_P(CF8B_CheckValidityOfPathTest, CheckValidityOfPath)
+{
+    auto directions = GetParam().first;
+    auto expected = GetParam().second;
+    auto result = CheckValidityOfPath(directions);
+    EXPECT_EQ(result, expected);
 }
 
 // clang-format off
@@ -23,7 +26,8 @@ INSTANTIATE_TEST_CASE_P(
                       std::make_pair("R",true)));
 // clang-format on
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

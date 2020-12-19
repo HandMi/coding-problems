@@ -1,19 +1,22 @@
+#include "main.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "main.h"
 
 using ParticipantList = std::vector<std::vector<std::uint32_t>>;
 
 class CF1257E_LongestIncreasingSubsequenceTest
     : public testing::TestWithParam<
-          std::tuple<std::vector<std::uint32_t>, std::uint32_t>> {};
+          std::tuple<std::vector<std::uint32_t>, std::uint32_t>>
+{
+};
 
 TEST_P(CF1257E_LongestIncreasingSubsequenceTest,
-       CF1257E_LongestIncreasingSubsequence) {
-  auto parameters = std::get<0>(GetParam());
-  auto expected = std::get<1>(GetParam());
-  auto result = LongestIncreasingSubsequence(parameters);
-  EXPECT_EQ(result, expected);
+       CF1257E_LongestIncreasingSubsequence)
+{
+    auto parameters = std::get<0>(GetParam());
+    auto expected = std::get<1>(GetParam());
+    auto result = LongestIncreasingSubsequence(parameters);
+    EXPECT_EQ(result, expected);
 }
 
 INSTANTIATE_TEST_CASE_P(
@@ -26,14 +29,16 @@ INSTANTIATE_TEST_CASE_P(
         std::make_tuple(std::vector<std::uint32_t>{5, 4, 3, 2, 1}, 1)));
 
 class CF1257E_MinimumMovesTest
-    : public testing::TestWithParam<
-          std::tuple<ParticipantList, std::uint32_t>> {};
+    : public testing::TestWithParam<std::tuple<ParticipantList, std::uint32_t>>
+{
+};
 
-TEST_P(CF1257E_MinimumMovesTest, CF1257E_MinimumMoves) {
-  auto parameters = std::get<0>(GetParam());
-  auto expected = std::get<1>(GetParam());
-  auto result = MinimumMoves(parameters);
-  EXPECT_EQ(result, expected);
+TEST_P(CF1257E_MinimumMovesTest, CF1257E_MinimumMoves)
+{
+    auto parameters = std::get<0>(GetParam());
+    auto expected = std::get<1>(GetParam());
+    auto result = MinimumMoves(parameters);
+    EXPECT_EQ(result, expected);
 }
 
 INSTANTIATE_TEST_CASE_P(
@@ -57,7 +62,8 @@ INSTANTIATE_TEST_CASE_P(
                                         std::vector<std::uint32_t>{3}},
                         2)));
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

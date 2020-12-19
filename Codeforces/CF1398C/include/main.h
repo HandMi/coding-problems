@@ -3,6 +3,6 @@
 
 #include <string>
 
-long long CountGoodSubArrays(const std::string& array_string);
+long long CountGoodSubArrays(const std::string &array_string);
 
 #endif

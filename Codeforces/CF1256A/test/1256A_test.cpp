@@ -1,16 +1,19 @@
-#include "gtest/gtest.h"
 #include "main.h"
+#include "gtest/gtest.h"
 
 class CF1256A_CheckRemainderTest
-    : public testing::TestWithParam<std::tuple<std::array<int, 4>, bool>> {};
+    : public testing::TestWithParam<std::tuple<std::array<int, 4>, bool>>
+{
+};
 
-TEST_P(CF1256A_CheckRemainderTest, PredefinedTests) {
-  auto parameters = std::get<0>(GetParam());
-  auto expected = std::get<1>(GetParam());
+TEST_P(CF1256A_CheckRemainderTest, PredefinedTests)
+{
+    auto parameters = std::get<0>(GetParam());
+    auto expected = std::get<1>(GetParam());
 
-  EXPECT_EQ(CheckRemainder(parameters[0], parameters[1], parameters[2],
-                           parameters[3]),
-            expected);
+    EXPECT_EQ(CheckRemainder(parameters[0], parameters[1], parameters[2],
+                             parameters[3]),
+              expected);
 }
 
 INSTANTIATE_TEST_CASE_P(
@@ -23,7 +26,8 @@ INSTANTIATE_TEST_CASE_P(
                       std::make_tuple(std::array<int, 4>{7, 5, 5, 1}, true),
                       std::make_tuple(std::array<int, 4>{4, 9, 1, 9}, true)));
 
-int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

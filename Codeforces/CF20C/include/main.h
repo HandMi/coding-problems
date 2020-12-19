@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-void Solve(std::istream& in, std::ostream& out);
+void Solve(std::istream &in, std::ostream &out);
 
 #endif
