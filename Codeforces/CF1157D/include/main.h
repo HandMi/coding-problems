@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <cstdint>
 #include <vector>
 
 bool ConstructStrategy(std::vector<std::uint32_t> &problems,

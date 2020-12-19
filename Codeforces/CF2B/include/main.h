@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <string>
 #include <vector>
 
 using GridType = std::vector<std::vector<int>>;
