@@ -10,6 +10,8 @@ Solved problems:
 * [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
 * [2020 Day 14: Docking Data](https://adventofcode.com/2020/day/14)
 * [2020 Day 15: Rambunctious Recitation](https://adventofcode.com/2020/day/15)
+* [2020 Day 16: Ticket Translation](https://adventofcode.com/2020/day/16)
+* [2020 Day 17: Conway Cubes](https://adventofcode.com/2020/day/17)
 
 ## Codeforces
 
