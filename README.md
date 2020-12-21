@@ -1,10 +1,8 @@
-#Codeforces
-## Solutions to Codeforces problems
-
-Solved problems:
+# Solutions to Coding problems
 
 ## Advent of Code
 
+* [2020 Day  1: Report Repair](https://adventofcode.com/2020/day/1)
 * [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
 * [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
 * [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
