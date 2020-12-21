@@ -201,7 +201,6 @@ void Solve(std::istream &in, std::ostream &out)
 {
     std::string input;
     std::map<int, Tile> tiles;
-    long long result{1};
 
     while (std::getline(in, input))
     {

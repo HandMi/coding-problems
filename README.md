@@ -15,6 +15,8 @@ Solved problems:
 * [2020 Day 18: Operation Order](https://adventofcode.com/2020/day/18)
 * [2020 Day 19: Monster Messages](https://adventofcode.com/2020/day/19)
 * [2020 Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)
+* [2020 Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)
+
 
 ## Codeforces
 
