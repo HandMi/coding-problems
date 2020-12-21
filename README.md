@@ -2,6 +2,9 @@
 
 ## Advent of Code
 
+<details>
+<summary>Problems</summary>
+
 * [2020 Day  1: Report Repair](https://adventofcode.com/2020/day/1)
 * [2020 Day  2: Password Philosophy](https://adventofcode.com/2020/day/2)
 * [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
@@ -16,8 +19,12 @@
 * [2020 Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)
 * [2020 Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)
 
+</details>
 
 ## Codeforces
+
+<details>
+<summary>Problems</summary>
 
 * [1A Theatre Square](https://codeforces.com/problemset/problem/1/A) *1300*
 * [2B The Least Round Way](https://codeforces.com/problemset/problem/2/B) *2000*
@@ -46,9 +53,16 @@
 * [1427B Chess Cheater](https://codeforces.com/contest/1427/problem/B) *1400*
 * [1455D Sequence and Swaps](https://codeforces.com/contest/1455/problem/D) *1600*
 
+</details>
+
 ## HackerRank ProjectEuler+
+
+<details>
+<summary>Problems</summary>
 
 * [#1 Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem)
 * [#2 Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem)
 
+</details>
+<br>
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
