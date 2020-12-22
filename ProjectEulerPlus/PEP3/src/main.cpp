@@ -29,6 +29,7 @@ auto Factorizer::Factorize(long n) -> std::vector<long>
     factors.push_back(n);
     return factors;
 }
+
 auto Factorizer::LargestPrimeFactor(long n) -> long
 {
     const auto factors = Factorize(n);
