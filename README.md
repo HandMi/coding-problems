@@ -63,6 +63,7 @@
 
 * [#1 Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem)
 * [#2 Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem)
+* [#3 Largest prime factor](https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem)
 
 </details>
 <br>
