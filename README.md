@@ -40,6 +40,7 @@
 * [132C Logo Turtle](https://codeforces.com/contest/132/problem/C) *1800*
 * [229B Planets](https://codeforces.com/problemset/problem/229/B) *1700*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
+* [500A New Year Transportation](https://codeforces.com/problemset/problem/500/A) *1000*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
 * [688B Lovely Palindromes](https://codeforces.com/contest/688/problem/B) *1000*
 * [793B Igor and his way to work](https://codeforces.com/contest/793/problem/B) *1600*
