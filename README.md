@@ -36,9 +36,10 @@
 * [20C Dijkstra?](https://codeforces.com/contest/20/problem/C) *1900*
 * [131D Subway](https://codeforces.com/contest/131/problem/D) *1600*
 * [132C Logo Turtle](https://codeforces.com/contest/132/problem/C) *1800*
-* [229 Planets](https://codeforces.com/problemset/problem/229/B) *1700*
+* [229B Planets](https://codeforces.com/problemset/problem/229/B) *1700*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
+* [688B Lovely Palindromes](https://codeforces.com/contest/688/problem/B) *1000*
 * [793B Igor and his way to work](https://codeforces.com/contest/793/problem/B) *1600*
 * [1157D N Problems During K Days](https://codeforces.com/problemset/problem/1157/D) *2100*
 * [1244C The Football Season](https://codeforces.com/problemset/problem/1244/C) *1900*
