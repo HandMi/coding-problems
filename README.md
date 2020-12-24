@@ -11,6 +11,7 @@
 * [2020 Day  4: Passport Processing](https://adventofcode.com/2020/day/4)
 * [2020 Day  5: Binary Boarding](https://adventofcode.com/2020/day/4)
 * [2020 Day  6: Custom Customs](https://adventofcode.com/2020/day/6)
+* [2020 Day  7: Handy Haversacks](https://adventofcode.com/2020/day/7)
 * [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
 * [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
 * [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
@@ -24,7 +25,7 @@
 * [2020 Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)
 * [2020 Day 22: Crab Combat](https://adventofcode.com/2020/day/22)
 * [2020 Day 23: Crab Cups](https://adventofcode.com/2020/day/23)
-
+* [2020 Day 24: Lobby Layout](https://adventofcode.com/2020/day/24)
 
 </details>
 
