@@ -76,6 +76,8 @@
 * [#5 Smallest multiple](https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
+</details>
+
 ## Google CodeJam
 
 <details>
