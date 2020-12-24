@@ -76,6 +76,13 @@
 * [#5 Smallest multiple](https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
+## Google CodeJam
+
+<details>
+<summary>Problems</summary>
+
+* [2020 Qualification Round: Vestigium](https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c)
+
 </details>
 <br>
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
