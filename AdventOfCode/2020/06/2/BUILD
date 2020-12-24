@@ -1,5 +1,5 @@
 cc_library(
-    name = "AOC20_05_2",
+    name = "AOC20_06_2",
     srcs = glob(["src/*.cpp"]),
     hdrs = glob(["include/*.h"]),
     linkopts = ["-pthread"],
@@ -7,9 +7,19 @@ cc_library(
     visibility = ["//visibility:public"],
 )
 
-cc_binary(
-    name = "AOC20_05_2_bin",
+cc_test(
+    name = "AOC20_06_2_test",
+    srcs = glob(["test/*.cpp"]),
     deps = [
-        "//AdventOfCode/2020/05/2:AOC20_05_2",
+        "//AdventOfCode/2020/06/2:AOC20_06_2",
+        "@gtest//:gtest_main",
+    ],
+    data = glob(["data/*.txt"]),
+)
+
+cc_binary(
+    name = "AOC20_06_2_bin",
+    deps = [
+        "//AdventOfCode/2020/06/2:AOC20_06_2",
     ],
 )

@@ -1,36 +1,28 @@
 #include <algorithm>
+#include <array>
 #include <iostream>
-#include <vector>
 
 void Solve(std::istream &in, std::ostream &out)
 {
     std::string input;
-    std::vector<std::uint16_t> boarding_passes;
+    std::array<int, 26U> answers{};
+    int result{0};
+    int cnt{0};
     while (std::getline(in, input))
     {
         if (input.empty())
         {
-            break;
+            result += std::count(answers.begin(), answers.end(), cnt);
+            answers.fill(0);
+            cnt = 0;
+            continue;
         }
-        std::uint16_t boarding_pass{0U};
-        for (int i = 0; i < 10; ++i)
-        {
-            boarding_pass <<= 1;
-            if (input[i] == 'B' || input[i] == 'R')
-            {
-                boarding_pass += 1;
-            }
-        }
-        boarding_passes.push_back(boarding_pass);
+        std::for_each(input.begin(), input.end(),
+                      [&answers](char c) { ++answers[c - 'a']; });
+        ++cnt;
     }
-    std::sort(boarding_passes.begin(), boarding_passes.end());
-    for (std::size_t i = 1U; i < boarding_passes.size() - 1; ++i)
-    {
-        if (boarding_passes[i - 1] + 2 == boarding_passes[i])
-        {
-            out << boarding_passes[i - 1] + 1 << std::endl;
-        }
-    }
+    result += std::count(answers.begin(), answers.end(), cnt);
+    out << result << std::endl;
 }
 
 auto main() -> int

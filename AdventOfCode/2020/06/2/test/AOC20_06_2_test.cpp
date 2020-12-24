@@ -3,12 +3,12 @@
 #include "gtest/gtest.h"
 #include <fstream>
 
-class AOC20_06_1_CustomCustomsTest
+class AOC20_06_2_CustomCustomsTest
     : public testing::TestWithParam<std::pair<std::string, std::string>>
 {
 };
 
-TEST_P(AOC20_06_1_CustomCustomsTest, CustomCustomsTest)
+TEST_P(AOC20_06_2_CustomCustomsTest, CustomCustomsTest)
 {
     auto input_file = GetParam().first;
     auto expected_file = GetParam().second;
@@ -28,9 +28,9 @@ TEST_P(AOC20_06_1_CustomCustomsTest, CustomCustomsTest)
 
 // clang-format off
 INSTANTIATE_TEST_CASE_P(
-    AOC20_06_1_CustomCustomsTests, AOC20_06_1_CustomCustomsTest,
-    ::testing::Values(std::make_pair("AdventOfCode/2020/06/1/data/0_in.txt","AdventOfCode/2020/06/1/data/0_out.txt"),
-                      std::make_pair("AdventOfCode/2020/06/1/data/1_in.txt","AdventOfCode/2020/06/1/data/1_out.txt")));
+    AOC20_06_2_CustomCustomsTests, AOC20_06_2_CustomCustomsTest,
+    ::testing::Values(std::make_pair("AdventOfCode/2020/06/2/data/0_in.txt","AdventOfCode/2020/06/2/data/0_out.txt"),
+                      std::make_pair("AdventOfCode/2020/06/2/data/1_in.txt","AdventOfCode/2020/06/2/data/1_out.txt")));
 // clang-format on
 
 int main(int argc, char **argv)
