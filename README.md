@@ -75,6 +75,7 @@
 * [#3 Largest prime factor](https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem)
 * [#4 Largest palindrome product](https://www.hackerrank.com/contests/projecteuler/challenges/euler004/problem)
 * [#5 Smallest multiple](https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem)
+* [#6 Sum square difference](https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
 </details>
