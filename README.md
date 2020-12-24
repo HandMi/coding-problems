@@ -10,6 +10,7 @@
 * [2020 Day  3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)
 * [2020 Day  4: Passport Processing](https://adventofcode.com/2020/day/4)
 * [2020 Day  5: Binary Boarding](https://adventofcode.com/2020/day/4)
+* [2020 Day  6: Custom Customs](https://adventofcode.com/2020/day/6)
 * [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
 * [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
 * [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
@@ -72,6 +73,7 @@
 * [#2 Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem)
 * [#3 Largest prime factor](https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem)
 * [#4 Largest palindrome product](https://www.hackerrank.com/contests/projecteuler/challenges/euler004/problem)
+* [#5 Smallest multiple](https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
 </details>
