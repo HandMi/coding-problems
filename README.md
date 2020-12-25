@@ -13,6 +13,7 @@
 * [2020 Day  6: Custom Customs](https://adventofcode.com/2020/day/6)
 * [2020 Day  7: Handy Haversacks](https://adventofcode.com/2020/day/7)
 * [2020 Day  8: Handheld Halting](https://adventofcode.com/2020/day/8)
+* [2020 Day  9: Encoding Error](https://adventofcode.com/2020/day/9)
 * [2020 Day 11: Seating System](https://adventofcode.com/2020/day/11)
 * [2020 Day 12: Rain Risk](https://adventofcode.com/2020/day/12)
 * [2020 Day 13: Shuttle Search](https://adventofcode.com/2020/day/13)
