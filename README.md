@@ -28,6 +28,7 @@
 * [2020 Day 22: Crab Combat](https://adventofcode.com/2020/day/22)
 * [2020 Day 23: Crab Cups](https://adventofcode.com/2020/day/23)
 * [2020 Day 24: Lobby Layout](https://adventofcode.com/2020/day/24)
+* [2020 Day 25: Combo Breaker](https://adventofcode.com/2020/day/25)
 
 </details>
 
