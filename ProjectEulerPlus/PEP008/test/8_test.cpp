@@ -2,12 +2,12 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-class PEP001_LargestProductTest
+class PEP008_LargestProductTest
     : public testing::TestWithParam<std::pair<std::string, long>>
 {
 };
 
-TEST_P(PEP001_LargestProductTest, LargestProductTest)
+TEST_P(PEP008_LargestProductTest, LargestProductTest)
 {
     auto n = GetParam().first;
     auto expected = GetParam().second;
@@ -17,7 +17,7 @@ TEST_P(PEP001_LargestProductTest, LargestProductTest)
 
 // clang-format off
 INSTANTIATE_TEST_CASE_P(
-    PEP001_LargestProductTests, PEP001_LargestProductTest,
+    PEP008_LargestProductTests, PEP008_LargestProductTest,
     ::testing::Values(std::make_pair("3675356291",3150),
                       std::make_pair("2709360626",0)));
 // clang-format on

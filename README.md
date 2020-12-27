@@ -87,6 +87,7 @@
 * [#6 Sum square difference](https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem)
 * [#7 10001st prime](https://www.hackerrank.com/contests/projecteuler/challenges/euler007/problem)
 * [#8 Largest product in a series](https://www.hackerrank.com/contests/projecteuler/challenges/euler008/problem)
+* [#9 Special Pythagorean triplet](https://www.hackerrank.com/contests/projecteuler/challenges/euler009/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
 </details>
