@@ -63,6 +63,7 @@
 * [1257E The Contest](https://codeforces.com/problemset/problem/1257/E) *2000*
 * [1313C1 Skyscrapers (easy version)](https://codeforces.com/contest/1313/problem/C1) *1500*
 * [1313C2 Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) *1900*
+* [1360E Polygon](https://codeforces.com/contest/1360/problem/E) *1300*
 * [1398C Good Subarrays](https://codeforces.com/problemset/problem/1398/C) *1600*
 * [1398D Colored Rectangles](https://codeforces.com/problemset/problem/1398/D) *1800*
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
