@@ -49,6 +49,7 @@
 * [217A Ice Skating](https://codeforces.com/contest/217/problem/A) *1000*
 * [229B Planets](https://codeforces.com/problemset/problem/229/B) *1700*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
+* [330B Road Construction](https://codeforces.com/problemset/problem/330/B) *1300*
 * [500A New Year Transportation](https://codeforces.com/problemset/problem/500/A) *1000*
 * [520B Two Buttons](https://codeforces.com/contest/520/problem/B) *1400*
 * [580C Kefa and Park](https://codeforces.com/contest/580/problem/C) *1500*
