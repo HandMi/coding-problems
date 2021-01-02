@@ -99,6 +99,7 @@
 * [#12 Highly divisible triangular number](https://www.hackerrank.com/contests/projecteuler/challenges/euler012/problem)
 * [#13 Large sum](https://www.hackerrank.com/contests/projecteuler/challenges/euler013/problem)
 * [#14 Longest Collatz sequence](https://www.hackerrank.com/contests/projecteuler/challenges/euler014/problem)
+* [#15 Lattice paths](https://www.hackerrank.com/contests/projecteuler/challenges/euler015/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
 </details>
