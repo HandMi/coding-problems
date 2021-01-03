@@ -56,6 +56,7 @@
 * [580C Kefa and Park](https://codeforces.com/contest/580/problem/C) *1500*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
 * [688B Lovely Palindromes](https://codeforces.com/contest/688/problem/B) *1000*
+* [707B Bakery](https://codeforces.com/problemset/problem/707/B) *1300*
 * [793B Igor and his way to work](https://codeforces.com/contest/793/problem/B) *1600*
 * [893C Rumor](https://codeforces.com/problemset/problem/893/C) *1300*
 * [1020B Badge](https://codeforces.com/problemset/problem/1020/B) *1000*
