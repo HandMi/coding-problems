@@ -77,6 +77,7 @@
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
 * [1424G Years](https://codeforces.com/problemset/problem/1424/G) *1300*
 * [1427B Chess Cheater](https://codeforces.com/contest/1427/problem/B) *1400*
+* [1428B Belted Rooms](https://codeforces.com/problemset/problem/1428/B) *1200*
 * [1455D Sequence and Swaps](https://codeforces.com/contest/1455/problem/D) *1600*
 
 </details>
