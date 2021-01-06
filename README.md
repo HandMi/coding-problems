@@ -50,6 +50,7 @@
 * [229B Planets](https://codeforces.com/problemset/problem/229/B) *1700*
 * [292B Network Topology](https://codeforces.com/problemset/problem/292/B) *1400*
 * [330B Road Construction](https://codeforces.com/problemset/problem/330/B) *1300*
+* [437C The Child and Toy](https://codeforces.com/contest/437/problem/C) *1400*
 * [500A New Year Transportation](https://codeforces.com/problemset/problem/500/A) *1000*
 * [520B Two Buttons](https://codeforces.com/contest/520/problem/B) *1400*
 * [522A Reposts](https://codeforces.com/problemset/problem/522/A) *1200*
