@@ -80,6 +80,7 @@
 * [1427B Chess Cheater](https://codeforces.com/contest/1427/problem/B) *1400*
 * [1428B Belted Rooms](https://codeforces.com/problemset/problem/1428/B) *1200*
 * [1455D Sequence and Swaps](https://codeforces.com/contest/1455/problem/D) *1600*
+* [1472C Long Jumps](https://codeforces.com/problemset/problem/1472/C) *1100*
 
 </details>
 
