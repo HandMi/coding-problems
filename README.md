@@ -122,4 +122,15 @@
 
 </details>
 <br>
+
+## Coursera Algorithms, Part I
+
+<details>
+<summary>Problems</summary>
+
+* [Percolation](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)
+
+</details>
+<br>
+
 The projects can be build with *bazel build ...*, tests can be run with *bazel test ...*.
