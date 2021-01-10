@@ -19,3 +19,14 @@ java_binary(
         "@algs4//jar",
     ],
 )
+
+java_binary(
+    name = "PercolationStats",
+    srcs = [
+        "src/PercolationStats.java",
+    ],
+    deps = [
+        ":Percolation",
+        "@algs4//jar",
+    ],
+)

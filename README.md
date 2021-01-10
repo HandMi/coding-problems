@@ -121,7 +121,6 @@
 * [2020 Qualification Round: Parenting Partnering Returns](https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020bdf9)
 
 </details>
-<br>
 
 ## Coursera Algorithms, Part I
 
