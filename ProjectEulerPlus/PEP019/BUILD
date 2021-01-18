@@ -1,7 +1,7 @@
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library", "cc_test")
 
 cc_library(
-    name = "PEP018",
+    name = "PEP019",
     srcs = glob(["src/*.cpp"]),
     hdrs = glob(["include/*.h"]),
     linkopts = ["-pthread"],
@@ -10,18 +10,18 @@ cc_library(
 )
 
 cc_test(
-    name = "PEP018_test",
+    name = "PEP019_test",
     srcs = glob(["test/*.cpp"]),
     data = glob(["data/*.txt"]),
     deps = [
-        "//ProjectEulerPlus/PEP018",
+        "//ProjectEulerPlus/PEP019",
         "@gtest//:gtest_main",
     ],
 )
 
 cc_binary(
-    name = "PEP018_bin",
+    name = "PEP019_bin",
     deps = [
-        "//ProjectEulerPlus/PEP018",
+        "//ProjectEulerPlus/PEP019",
     ],
 )

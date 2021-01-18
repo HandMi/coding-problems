@@ -107,6 +107,7 @@
 * [#16 Power digit sum](https://www.hackerrank.com/contests/projecteuler/challenges/euler016/problem)
 * [#17 Number to Words](https://www.hackerrank.com/contests/projecteuler/challenges/euler017/problem)
 * [#18 Maximum path sum I](https://www.hackerrank.com/contests/projecteuler/challenges/euler018/problem)
+* [#19 Counting Sundays](https://www.hackerrank.com/contests/projecteuler/challenges/euler019/problem)
 * [#36 Double-base palindromes](https://www.hackerrank.com/contests/projecteuler/challenges/euler036/problem)
 
 </details>
