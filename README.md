@@ -4,6 +4,14 @@
 
 <details>
 <summary>Problems</summary>
+<details>
+<summary>2019</summary>
+
+* [2019 Day  1: The Tyranny of the Rocket Equation](https://adventofcode.com/2019/day/1)
+
+</details>
+<details>
+<summary>2020</summary>
 
 * [2020 Day  1: Report Repair](https://adventofcode.com/2020/day/1)
 * [2020 Day  2: Password Philosophy](https://adventofcode.com/2020/day/2)
@@ -31,6 +39,7 @@
 * [2020 Day 24: Lobby Layout](https://adventofcode.com/2020/day/24)
 * [2020 Day 25: Combo Breaker](https://adventofcode.com/2020/day/25)
 
+</details>
 </details>
 
 ## Codeforces
