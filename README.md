@@ -4,12 +4,15 @@
 
 <details>
 <summary>Problems</summary>
+
 <details>
 <summary>2019</summary>
 
 * [2019 Day  1: The Tyranny of the Rocket Equation](https://adventofcode.com/2019/day/1)
+* [2019 Day  2: 1202 Program Alarm](https://adventofcode.com/2019/day/2)
 
 </details>
+
 <details>
 <summary>2020</summary>
 
