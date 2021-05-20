@@ -6,21 +6,22 @@
 <summary>Problems</summary>
 
 <details>
-<summary>2019</summary>
+<summary>2019 (Python)</summary>
 
 * [2019 Day  1: The Tyranny of the Rocket Equation](https://adventofcode.com/2019/day/1)
 * [2019 Day  2: 1202 Program Alarm](https://adventofcode.com/2019/day/2)
+* [2019 Day  3: Crossed Wires](https://adventofcode.com/2019/day/3)
 
 </details>
 
 <details>
-<summary>2020</summary>
+<summary>2020 (C++)</summary>
 
 * [2020 Day  1: Report Repair](https://adventofcode.com/2020/day/1)
 * [2020 Day  2: Password Philosophy](https://adventofcode.com/2020/day/2)
 * [2020 Day  3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)
 * [2020 Day  4: Passport Processing](https://adventofcode.com/2020/day/4)
-* [2020 Day  5: Binary Boarding](https://adventofcode.com/2020/day/4)
+* [2020 Day  5: Binary Boarding](https://adventofcode.com/2020/day/5)
 * [2020 Day  6: Custom Customs](https://adventofcode.com/2020/day/6)
 * [2020 Day  7: Handy Haversacks](https://adventofcode.com/2020/day/7)
 * [2020 Day  8: Handheld Halting](https://adventofcode.com/2020/day/8)
