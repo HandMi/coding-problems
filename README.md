@@ -69,6 +69,7 @@
 * [520B Two Buttons](https://codeforces.com/contest/520/problem/B) *1400*
 * [522A Reposts](https://codeforces.com/problemset/problem/522/A) *1200*
 * [580C Kefa and Park](https://codeforces.com/contest/580/problem/C) *1500*
+* [601A The Two Routes](https://codeforces.com/contest/601/problem/A) *1600*
 * [618D Hamiltonian Spanning Tree](https://codeforces.com/problemset/problem/618/D) *2200*
 * [688B Lovely Palindromes](https://codeforces.com/contest/688/problem/B) *1000*
 * [707B Bakery](https://codeforces.com/problemset/problem/707/B) *1300*

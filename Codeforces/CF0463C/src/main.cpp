@@ -2,13 +2,6 @@
 #include <iostream>
 #include <vector>
 
-struct Character
-{
-    std::uint64_t cost;
-    std::vector<int> friends;
-    bool visited;
-};
-
 void Solve(std::istream &in, std::ostream &out)
 {
     int n;
