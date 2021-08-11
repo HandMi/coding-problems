@@ -11,6 +11,10 @@
 * [2019 Day  1: The Tyranny of the Rocket Equation](https://adventofcode.com/2019/day/1)
 * [2019 Day  2: 1202 Program Alarm](https://adventofcode.com/2019/day/2)
 * [2019 Day  3: Crossed Wires](https://adventofcode.com/2019/day/3)
+* [2019 Day  4: Secure Container](https://adventofcode.com/2019/day/4)
+* [2019 Day  5: Sunny with a Chance of Asteroids](https://adventofcode.com/2019/day/5)
+* [2019 Day  6: Universal Orbit Map](https://adventofcode.com/2019/day/6)
+* [2019 Day  7: Amplification Circuit](https://adventofcode.com/2019/day/7)
 
 </details>
 
