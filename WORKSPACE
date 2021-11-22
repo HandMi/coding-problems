@@ -9,6 +9,6 @@ http_archive(
 
 http_jar(
     name = "algs4",
-    sha256 = "8e9a47b80e4979ab412cc657d65ed582867b2d855734e5f8d8bbe36a76a6db7a",
+    sha256 = "85f6ea1a82e2f48ac6a422323c4106a07c2b5e28e93a863bdfccc2541701fefd",
     url = "https://algs4.cs.princeton.edu/code/algs4.jar",
 )
