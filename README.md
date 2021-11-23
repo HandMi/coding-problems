@@ -92,6 +92,7 @@
 * [1313C2 Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) *1900*
 * [1327B Princesses and Princes](https://codeforces.com/problemset/problem/1327/B) *1200*
 * [1360E Polygon](https://codeforces.com/contest/1360/problem/E) *1300*
+* [1389B Array Walk](https://codeforces.com/contest/1389/problem/B) *1600*
 * [1398C Good Subarrays](https://codeforces.com/problemset/problem/1398/C) *1600*
 * [1398D Colored Rectangles](https://codeforces.com/problemset/problem/1398/D) *1800*
 * [1418C Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) *1500*
