@@ -23,5 +23,8 @@
 .bazelversion
 # User-specific .bazelrc
 user.bazelrc
-
-
+btest
+fshow
+ishow
+target/
+input.txt
