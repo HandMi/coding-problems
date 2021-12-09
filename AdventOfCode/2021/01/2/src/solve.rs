@@ -1,4 +1,4 @@
-pub fn part_one(input: &Vec<i32>) {
+pub fn part_two(input: &Vec<i32>) {
     let triple_sum: Vec<i32> = input.windows(3).map(|slice| slice.iter().sum()).collect();
     println!(
         "{}",
