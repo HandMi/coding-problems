@@ -48,6 +48,15 @@
 * [2020 Day 25: Combo Breaker](https://adventofcode.com/2020/day/25)
 
 </details>
+
+<details>
+<summary>2021 (Rust)</summary>
+
+* [2021 Day  1: Sonar Sweep](https://adventofcode.com/2021/day/1)
+* [2021 Day  2: Dive!](https://adventofcode.com/2021/day/2)
+* [2021 Day  3: Binary Diagnostic](https://adventofcode.com/2021/day/3)
+
+</details>
 </details>
 
 ## Codeforces
